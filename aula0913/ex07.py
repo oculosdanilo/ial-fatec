@@ -17,7 +17,7 @@ while x > 0:
 
     quant += 1
     soma += x
-    media = soma / quant
+    media = soma / quant # otimização: só calcular a media quando acabar o while
 
 print(f'o maior valor é {maior}')
 print(f'o menor valor é {menor}')
