@@ -7,7 +7,7 @@ fibbo = ""
 isPrimeiroN = True
 
 x = 2
-while x < n:
+while x < n: # correção: n numeros *depois* do prim
   soma = antes + anteantes
   if soma > prim:
     if isPrimeiroN:
