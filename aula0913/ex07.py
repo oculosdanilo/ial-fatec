@@ -8,7 +8,7 @@ x = 1
 while x > 0:
   x = int(input("insira um número inteiro: "))
 
-  if x != 0:
+  if x != 0: # correção: apenas colocar o input na saída do while, em vez de fazer *isso*
     if x > maior:
       maior = x
 
