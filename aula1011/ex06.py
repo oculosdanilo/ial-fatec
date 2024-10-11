@@ -9,8 +9,8 @@ if LMin > LMax:
   LMin = LMax
   LMax = LMinAntigo
 
-cont = 0
-while cont < 10:
+cont = 0         # pode ser também: 
+while cont < 10: # for cont in range(10)
   N = int(input(f"insira o {cont + 1}º número inteiro para ser acrescentado: "))
 
   if LMin <= N <= LMax:
