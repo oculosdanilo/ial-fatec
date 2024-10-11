@@ -13,7 +13,7 @@ cont = 0         # pode ser também:
 while cont < 10: # for cont in range(10)
   N = int(input(f"insira o {cont + 1}º número inteiro para ser acrescentado: "))
 
-  if LMin <= N <= LMax:
+  if LMin <= N <= LMax: # pythonisse :p
     A.append(N)
     nA += 1
   else:
