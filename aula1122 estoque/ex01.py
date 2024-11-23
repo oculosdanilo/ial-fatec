@@ -4,3 +4,7 @@
 #   Danilo Carvalho Lima
 #   Marina Gusmão Faria Barbosa Bueno
 #   Vinicius Coutinho de Castro
+
+ArquivoProdutos = open("PRODUTOS.TXT", "r")
+
+ArquivoProdutos.close()
